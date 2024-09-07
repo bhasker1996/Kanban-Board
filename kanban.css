@@ -1,0 +1,164 @@
+*{
+    box-sizing : border-box;
+}
+
+body{
+    margin : 0;
+    padding : 0;
+}
+
+/* TOOL-BOX  */
+
+.toolbox-cont{
+    background-color: #4b4b4b;
+    height : 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-cont{
+    background-color: #3d3d3d;
+    height : 3.5rem;
+    width : 18rem;
+    margin-left: 4rem;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color-box{
+
+    height : 1.5rem;
+    width:3rem;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.action-btn-cont{
+    height:3.5rem;
+    width : 8rem;
+    background-color: #3d3d3d;
+    margin-left: 4rem;
+    display : flex;
+}
+
+.action-btn-cont>*{
+
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.add-btn{
+
+    font-size : 2rem;
+    color: white;
+}
+
+.add-btn:hover{
+    background-color: green;
+    font-size: 3rem;
+}
+
+.remove-btn{
+    font-size : 2rem;
+    color : white;
+}
+
+.remove-btn:hover{
+    font-size: 3rem;
+    background-color: red;
+}
+
+
+ /* TICKET RELATED */
+.ticket-cont{
+
+    height:12rem;
+   width:15rem;
+    background-color: coral;
+}
+
+.ticket-color{
+    height:1rem;
+    background-color: none;
+}
+
+.ticket-id{
+    height:2rem;
+    background-color : yellow;
+}
+
+.ticket-lock{
+
+    display : flex;
+    justify-content: flex-end;
+    margin-top : 5.5rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.main-cont{
+    padding : 2rem;
+    display: flex;
+    justify-content: center;
+    gap : 2rem;
+}
+
+
+/* MODEL - CONTENT  */
+
+.model-cont{
+    height : 50vh;
+    width : 45vw;
+    display : flex;
+    position : absolute;
+    top : 30%;
+    left : 27%;
+}
+
+.textarea-cont{
+    height: 100%;
+    width : 70%;
+    background-color: #dfe4ea;
+    resize : none;
+    outline : none;
+    border : none;
+    font-size : 2rem;
+}
+
+.priority-colors-container{
+    width: 30%;
+    background-color: #4b4b4b;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.priority-color{
+    height : 3rem;
+    width : 5rem;
+}
+
+.active{
+    border: 5px solid lightsalmon;
+}
+
