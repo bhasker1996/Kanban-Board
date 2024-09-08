@@ -128,7 +128,7 @@ body{
 .model-cont{
     height : 50vh;
     width : 45vw;
-    display : flex;
+    display : none;
     position : absolute;
     top : 30%;
     left : 27%;
