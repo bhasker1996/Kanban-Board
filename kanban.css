@@ -8,7 +8,6 @@ body{
 }
 
 /* TOOL-BOX  */
-
 .toolbox-cont{
     background-color: #4b4b4b;
     height : 5rem;
@@ -57,17 +56,14 @@ body{
 }
 
 .action-btn-cont>*{
-
     width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
 }
 
 .add-btn{
-
     font-size : 2rem;
     color: white;
 }
@@ -90,9 +86,8 @@ body{
 
  /* TICKET RELATED */
 .ticket-cont{
-
     height:12rem;
-   width:15rem;
+    width:15rem;
     background-color: coral;
 }
 
@@ -107,7 +102,6 @@ body{
 }
 
 .ticket-lock{
-
     display : flex;
     justify-content: flex-end;
     margin-top : 5.5rem;
